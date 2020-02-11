@@ -8,7 +8,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import choi.mvvm.mvvmtest.Adapter.ContactAdapter
-import choi.mvvm.mvvmtest.Room.Contact
+import choi.mvvm.mvvmtest.data.Contact
 import choi.mvvm.mvvmtest.ViewModel.ContactViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 

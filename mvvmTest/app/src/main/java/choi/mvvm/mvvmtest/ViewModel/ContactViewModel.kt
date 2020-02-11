@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import choi.mvvm.mvvmtest.Repository.ContactRepository
-import choi.mvvm.mvvmtest.Room.Contact
+import choi.mvvm.mvvmtest.data.Contact
 
 class ContactViewModel(application: Application) : AndroidViewModel(application) {
 

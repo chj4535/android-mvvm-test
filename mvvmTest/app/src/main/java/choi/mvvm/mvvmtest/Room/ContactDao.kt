@@ -2,6 +2,7 @@ package choi.mvvm.mvvmtest.Room
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import choi.mvvm.mvvmtest.data.Contact
 
 @Dao
 interface ContactDao {

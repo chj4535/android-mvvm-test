@@ -4,8 +4,9 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import choi.mvvm.mvvmtest.data.Contact
 
-@Database(entities = [Contact::class], version = 1)
+@Database(entities = [Contact::class], version = 1, exportSchema = false)
 abstract class ContactDatabase: RoomDatabase() {
 
     abstract fun contactDao(): ContactDao

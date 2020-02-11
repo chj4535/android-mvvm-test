@@ -3,6 +3,7 @@ package choi.mvvm.mvvmtest.Repository
 import android.app.Application
 import androidx.lifecycle.LiveData
 import choi.mvvm.mvvmtest.Room.*
+import choi.mvvm.mvvmtest.data.Contact
 
 class ContactRepository(application: Application) {
 
